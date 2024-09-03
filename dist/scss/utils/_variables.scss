@@ -1,11 +1,14 @@
 //new
-$white: #fff;
-$grey: #F6F7F7;
+$grey: #f6f7f7;
 $grey-dark: #949494;
-$grey-dark-2: #5F6060;
-$black: #000;
-$blue: #51ADE5;
+$grey-dark-2: #5f6060;
 
+$primary: #2f2f2f;
+$secondary: #eb1b2b;
+$blue: #123366;
+$white: #fff;
+$light: #fcfcfc;
+$black: #000;
 
 /* reset */
 $min-width: 320px;
@@ -15,26 +18,24 @@ $base-bg: #fff;
 $base-font-size: 18px;
 $base-line-height: 1.55;
 
-$regular: "encodesansexpanded-regular", sans-serif;
-$medium: "encodesansexpanded-medium", sans-serif;
-$semibold: "encodesansexpanded-semibold", sans-serif;
-$bold: "encodesansexpanded-bold", sans-serif;
-$extrabold: "encodesansexpanded-extrabold", sans-serif;
+$regular: "mavenpro-regular", sans-serif;
+$medium: "mavenpro-medium", sans-serif;
+$semibold: "mavenpro-bold", sans-serif;
+$bold: "mavenpro-bold", sans-serif;
+$extrabold: "mavenpro-regular", sans-serif;
 
 $base-regular-font-family: $regular; // USED
-
 
 $default-transition: all 0.2s linear;
 
 /* main variables */
-$color-text: $black;
-$link-color: $color-text;
-$secondary-text: $black;
+$color-text: $primary;
+$link-color: $primary;
+$secondary-text: $primary;
 
 //text, titles
-$base-text-color: $black;
-$secondary-text-color: $black;
-
+$base-text-color: $primary;
+$secondary-text-color: $primary;
 
 $font-size-h1: 27px;
 $line-height-h1: 1;
