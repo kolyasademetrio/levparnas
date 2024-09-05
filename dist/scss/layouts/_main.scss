@@ -259,7 +259,7 @@ img {
     gap: 20px;
   }
 
-  a {
+  a:not(.btn) {
     text-decoration: underline;
   }
 
@@ -274,7 +274,7 @@ img {
   }
 
   &__itemSubtitle,
-  a {
+  a:not(.btn) {
     color: $primary;
     font-size: 26px;
     font-weight: 400;
@@ -629,8 +629,14 @@ img {
 }
 
 .date {
-  padding-top: 15px;
-  margin-top: 15px;
-  border-top: 1px solid #bdbdbd;
-  color: #bdbdbd;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #646464;
+  font-family: $medium;
+  font-size: 26px;
+
+  &.lined {
+    margin-top: 20px;
+    border-top: 1px solid #646464;
+  }
 }

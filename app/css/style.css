@@ -1777,7 +1777,7 @@ img {
           flex-direction: column;
   gap: 20px;
 }
-.about a {
+.about a:not(.btn) {
   text-decoration: underline;
 }
 .about__imgWrap {
@@ -1789,7 +1789,7 @@ img {
   width: 100%;
 }
 .about__itemSubtitle,
-.about a {
+.about a:not(.btn) {
   color: #2f2f2f;
   font-size: 26px;
   font-weight: 400;
@@ -1799,7 +1799,7 @@ img {
   margin: 0;
 }
 .about__itemSubtitle.m-secondary,
-.about a.m-secondary {
+.about a:not(.btn).m-secondary {
   text-align: justify;
 }
 .about__btnWrap {
@@ -2119,9 +2119,14 @@ img {
 }
 
 .date {
-  padding-top: 15px;
-  margin-top: 15px;
-  border-top: 1px solid #bdbdbd;
-  color: #bdbdbd;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #646464;
+  font-family: "mavenpro-medium", sans-serif;
+  font-size: 26px;
+}
+.date.lined {
+  margin-top: 20px;
+  border-top: 1px solid #646464;
 }
 /*# sourceMappingURL=style.css.map */
